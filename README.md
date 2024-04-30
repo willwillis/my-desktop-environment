@@ -25,7 +25,7 @@
 
 ## CLI
 - [jq](https://jqlang.github.io/jq/)
-- rhich
+- [rhich](https://www.learning-perl.com/2012/02/learning-perl-challenge-rhich/)
   ```alias rhich="perl -MEnv=@PATH -E '$r=shift; say for grep { /$r/ } map {  glob \"$_/*\" } @PATH'"```
 - [perl-local-lib](https://perladvent.org/2009/3/)
 
