@@ -1,5 +1,6 @@
-# my-desktop-environment
-Collections of apps, utils, tweaks, preferences, hacks, and configs in my desktop environments
+# my desktop environment
+> Collections of apps, utils, tweaks, preferences, hacks, and configs in my desktop environments
+
 
 ## Windows
 - [Executor](https://executor.dk/)
@@ -15,6 +16,17 @@ Collections of apps, utils, tweaks, preferences, hacks, and configs in my deskto
 - [KeePassXC](https://keepassxc.org/)
 - [copyq](https://hluk.github.io/CopyQ/)
 - [peek](https://github.com/phw/peek)
+- arandr
+- feh
+- flameshot
+- light-locker
+- rofi
+- sxhkd
+
+## CLI
+- jq
+- rhich
+- perl-local-lib
 
 ## App Themes
 - [Dracula](https://draculatheme.com/)
