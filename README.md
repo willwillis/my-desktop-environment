@@ -7,7 +7,7 @@
 - [Ditto](https://ditto-cp.sourceforge.io/) 
 - [Greenshot](https://getgreenshot.org/)
   - `${capturetime:d"yyyy}\${capturetime:d"MM"}\${capturetime:d"yyyy-MM-dd HH_mm_ss"}-${title}`
-- [KeePass](https://keepass.info/)
+- [KeePassXC](https://keepassxc.org/)
 - [AutoHotkey](https://www.autohotkey.com/)
   - expansion example
     - `::xxq::Quetzalcoatlus`
@@ -23,10 +23,11 @@
 - [rofi](https://davatorium.github.io/rofi/)
 - [sxhkd](https://github.com/baskerville/sxhkd)
 
-## CLI
+## CLI / languages
 - [jq](https://jqlang.github.io/jq/)
 - [rhich](https://www.learning-perl.com/2012/02/learning-perl-challenge-rhich/)
   ```alias rhich="perl -MEnv=@PATH -E '$r=shift; say for grep { /$r/ } map {  glob \"$_/*\" } @PATH'"```
+- [plenv](https://xdg.me/setting-up-a-perl-development-environment-with-plenv/)
 - [perl-local-lib](https://perladvent.org/2009/3/)
 
 ## App Themes
