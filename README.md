@@ -7,6 +7,7 @@
 - [Ditto](https://ditto-cp.sourceforge.io/) 
 - [Greenshot](https://getgreenshot.org/)
   - `${capturetime:d"yyyy}\${capturetime:d"MM"}\${capturetime:d"yyyy-MM-dd HH_mm_ss"}-${title}`
+  - see $work gist, this syntax has changed I think it's more like `$(YYYY)` now...
 - [KeePassXC](https://keepassxc.org/)
 - [AutoHotkey](https://www.autohotkey.com/)
   - expansion example
