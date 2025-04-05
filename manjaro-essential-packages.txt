@@ -27,3 +27,5 @@ code
 ffmpeg
 vlc
 cups
+jq
+yq
