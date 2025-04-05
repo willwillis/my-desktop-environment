@@ -32,6 +32,7 @@
 
 ## App Themes
 - [Dracula](https://draculatheme.com/)
+- [Qogir-theme](https://github.com/vinceliuice/Qogir-theme)
 
 ## Todo
 dotfiles
