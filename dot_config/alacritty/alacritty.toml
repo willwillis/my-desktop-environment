@@ -1,0 +1,12 @@
+
+[font]
+normal = {family = "NotoSansMono", style="Regular"}
+
+[window]
+padding = { x = 8, y = 8 }
+
+[general]
+
+import = [
+    "~/.config/alacritty/themes/themes/dracula_plus.toml"
+]

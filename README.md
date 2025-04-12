@@ -36,4 +36,24 @@
 - [Qogir-theme](https://github.com/vinceliuice/Qogir-theme)
 
 ## Todo
-dotfiles
+  - oh my bash
+  - fonts (look at oh my posh,so clean) 
+
+### dotfiles
+  - Emacs & Theme
+  - correct GTK dot file
+  - polybar config is not mine. need to customize it. If I'm going to use it.
+
+### .local ($PATH)
+  - textglow (imagemagick) place in .local
+  - aws cli
+
+### apps/utils
+  - perl (plenv I think)
+  - mypy (python virtual env)
+    - build my own python, don't whatever you do use system py to make virtual environments or you'll always be update/upgrading them
+  - ta-lib
+  - stripe
+
+### reminders
+  - never install RESH
