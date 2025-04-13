@@ -26,6 +26,7 @@
 - firefox
   - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
   - [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17)
+  
 ## CLI / languages
 - [jq](https://jqlang.github.io/jq/)
 - [rhich](https://www.learning-perl.com/2012/02/learning-perl-challenge-rhich/)
