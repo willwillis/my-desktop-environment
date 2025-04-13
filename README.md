@@ -23,7 +23,9 @@
 - [light-locker](https://github.com/the-cavalry/light-locker)
 - [rofi](https://davatorium.github.io/rofi/)
 - [sxhkd](https://github.com/baskerville/sxhkd)
-
+- firefox
+  - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+  - [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17)
 ## CLI / languages
 - [jq](https://jqlang.github.io/jq/)
 - [rhich](https://www.learning-perl.com/2012/02/learning-perl-challenge-rhich/)
