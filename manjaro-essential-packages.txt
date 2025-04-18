@@ -29,3 +29,5 @@ vlc
 cups
 jq
 yq
+imagemagick
+poppler
