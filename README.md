@@ -60,3 +60,4 @@
 
 ### reminders
   - never install RESH
+  - Do you really need figlet?
