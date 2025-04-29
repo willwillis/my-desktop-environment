@@ -31,3 +31,5 @@ jq
 yq
 imagemagick
 poppler
+nodejs
+npm

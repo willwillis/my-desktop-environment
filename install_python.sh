@@ -108,7 +108,7 @@ echo "The downloaded files and build process occurred in: ${WORKDIR}"
 echo "Verify by running 'python3 --version' and 'pip3 --version' (after updating pip)."
 echo "You might need to run 'python3 -m pip install --upgrade pip' to get the latest pip."
 
-# alias python="$HOME/python3/bin/python3"
-# alias pip="$HOME/python3/bin/pip3"
+# python3 -mvenv mypy
+# alias mypy="source ~/mypy/bin/activate"
 
 exit 0
