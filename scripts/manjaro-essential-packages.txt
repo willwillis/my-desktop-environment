@@ -33,3 +33,4 @@ imagemagick
 poppler
 nodejs
 npm
+uv
