@@ -29,7 +29,7 @@ bspc rule -a ClipGrab desktop='^3'
 bspc rule -a Firefox desktop=^1 follow=on
 
 feh --no-fehbg --bg-fill /home/will/.config/bspwm/pexels-codioful.jpg &
-clipgrab &
+
 copyq &
 keepassxc &
 firefox "https://time.is/" &  
