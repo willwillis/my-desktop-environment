@@ -12,7 +12,9 @@
 - [AutoHotkey](https://www.autohotkey.com/)
   - expansion example
     - `::xxq::Quetzalcoatlus`
-
+- WSL
+  - [Oh my posh](https://ohmyposh.dev/) nicer out of the box PS1 than I could ever come up with myself
+  
 ## Linux / bspwm
 - [KeePassXC](https://keepassxc.org/)
 - [copyq](https://hluk.github.io/CopyQ/)
