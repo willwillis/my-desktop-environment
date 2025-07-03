@@ -41,7 +41,8 @@
 - [Qogir-theme](https://github.com/vinceliuice/Qogir-theme)
 
 ## Todo
-  - oh my bash
+  - [oh my bash](https://github.com/ohmybash/oh-my-bash)
+    - `export PROMPT_DIRTRIM=0`
   - fonts (look at oh my posh,so clean) 
 
 ### dotfiles
