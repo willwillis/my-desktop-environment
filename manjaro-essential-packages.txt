@@ -29,3 +29,7 @@ vlc
 cups
 jq
 yq
+imagemagick
+poppler
+nodejs
+npm

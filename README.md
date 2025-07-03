@@ -23,7 +23,10 @@
 - [light-locker](https://github.com/the-cavalry/light-locker)
 - [rofi](https://davatorium.github.io/rofi/)
 - [sxhkd](https://github.com/baskerville/sxhkd)
-
+- firefox
+  - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+  - [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17)
+  
 ## CLI / languages
 - [jq](https://jqlang.github.io/jq/)
 - [rhich](https://www.learning-perl.com/2012/02/learning-perl-challenge-rhich/)
@@ -36,4 +39,25 @@
 - [Qogir-theme](https://github.com/vinceliuice/Qogir-theme)
 
 ## Todo
-dotfiles
+  - oh my bash
+  - fonts (look at oh my posh,so clean) 
+
+### dotfiles
+  - Emacs & Theme
+  - correct GTK dot file
+  - polybar config is not mine. need to customize it. If I'm going to use it.
+
+### .local ($PATH)
+  - textglow (imagemagick) place in .local
+  - aws cli
+
+### apps/utils
+  - perl (plenv I think)
+  - mypy (python virtual env)
+    - build my own python, don't whatever you do use system py to make virtual environments or you'll always be update/upgrading them
+  - ta-lib
+  - stripe
+
+### reminders
+  - never install RESH
+  - Do you really need figlet?

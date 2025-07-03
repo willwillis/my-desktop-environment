@@ -1,0 +1,51 @@
+#! /bin/sh
+
+#~/.screenlayout/4k-only-disable-laptop-screen.sh
+# This is on the laptop
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc monitor DP-0 -d 1 2 3 4
+
+bspc config border_width         0
+bspc config window_gap           10
+bspc config split_ratio          0.53
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# Forces Emacs to Default tiled behavior
+bspc rule -a Emacs state=tiled
+
+#bspc rule -a xfreerdp desktop='^4'
+bspc rule -a Peek state=floating
+bspc rule -a copyq desktop='^3'
+#bspc rule -a KeePassXC desktop='^3'
+bspc rule -a KeePassXC desktop=^3 follow=on
+bspc rule -a KeePassXC:dialog state=floating follow=on
+bspc rule -a KeePassXC:popup state=floating follow=on
+#bspc rule -a firefox state=tiled
+bspc rule -a ClipGrab desktop='^3'
+
+bspc rule -a Firefox desktop=^1 follow=on
+
+feh --no-fehbg --bg-fill /home/will/.config/bspwm/pexels-codioful.jpg &
+
+copyq &
+keepassxc &
+firefox "https://time.is/" &  
+
+bspc desktop -f ^1
+
+
+## Laptop Config
+# if xranr | egrep -q "^DP-1 disconnected*"; then
+#     echo "Laptop Mode";
+#     bspc monitor eDP-1 -d 4 5 6
+# else
+#     echo "Home Setup";  
+#     #xrandr --output eDP-1 --off --output DP-1 --scale .90x.90 --primary --mode 3840x2160 --pos 0x0 --rotate normal --output DP-2 --off
+#     # --output HDMI-1 --off
+#     bspc monitor DP-0 -d 1 2 3 4
+# fi
+export _JAVA_AWT_WM_NONREPARENTING=1
+[ "$1" = 0 ] && wmname LG3D
