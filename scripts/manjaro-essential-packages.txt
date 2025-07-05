@@ -34,3 +34,4 @@ poppler
 nodejs
 npm
 uv
+rofi-emoji
