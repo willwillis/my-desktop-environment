@@ -1,0 +1,1 @@
+rclone mount willwillis:/ /home/will/webdav --vfs-cache-mode full --daemon

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Custom Polybar Launch Script
+# Based on shapes theme with custom modifications
+
+DIR="$HOME/.config/polybar/custom-shapes"
+
+# Terminate already running bar instances
+killall -q polybar
+
+# Wait until the processes have been shut down
+while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+
+# Launch the custom bar in background with nohup
+nohup polybar -q main -c "$DIR/config.ini" > /dev/null 2>&1 &
+
+echo "Custom polybar launched with controls-first MPD layout"

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+show_help() {
+    echo "Usage: music-player [OPTIONS]"
+    echo ""
+    echo "Starts MPD if not already running, then launches ncmpcpp"
+    echo ""
+    echo "OPTIONS:"
+    echo "  --help    Show this help message"
+    echo ""
+    echo "Manual MPD control commands:"
+    echo "  systemctl --user start mpd     # Start MPD"
+    echo "  systemctl --user stop mpd      # Stop MPD"
+    echo "  systemctl --user status mpd    # Check MPD status"
+}
+
+if [[ "$1" == "--help" ]]; then
+    show_help
+    exit 0
+fi
+
+# Check if MPD is running
+if ! systemctl --user is-active --quiet mpd; then
+    echo "Starting MPD..."
+    systemctl --user start mpd
+    sleep 1
+fi
+
+# Launch ncmpcpp
+exec ncmpcpp
