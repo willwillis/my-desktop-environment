@@ -1,1 +1,16 @@
 https://github.com/vinceliuice/Qogir-theme
+
+git clone https://github.com/vinceliuice/Qogir-theme.git
+cd Qogir-theme
+mkdir -p ~/.themes
+./install.sh -d ~/.themes
+
+
+Edit ~/.config/gtk-3.0/settings.ini:
+  [Settings]
+  gtk-theme-name=Qogir-Dark
+  gtk-application-prefer-dark-theme=1
+  gtk-icon-theme-name=Qogir
+
+  Edit ~/.gtkrc-2.0:
+  gtk-theme-name="Qogir-Dark"
