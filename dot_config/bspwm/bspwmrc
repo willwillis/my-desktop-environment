@@ -26,15 +26,16 @@ bspc rule -a KeePassXC:popup state=floating follow=on
 #bspc rule -a firefox state=tiled
 bspc rule -a ClipGrab desktop='^3'
 
-bspc rule -a Firefox desktop=^1 follow=on
-
+bspc rule -a Firefox desktop=^1 follow=on split_dir=west
+#bspc rule -a Alacritty desktop=^1 split_dir=east
+launch-custom-polybar
 feh --no-fehbg --bg-fill /home/will/.config/bspwm/pexels-codioful.jpg &
 
 copyq &
 keepassxc &
-firefox "https://time.is/" &  
-
 bspc desktop -f ^1
+firefox "https://time.is/" &
+alacritty &
 
 
 ## Laptop Config

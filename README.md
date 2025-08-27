@@ -39,10 +39,15 @@
 - [Dracula](https://draculatheme.com/)
 - [Qogir-theme](https://github.com/vinceliuice/Qogir-theme)
 
+## Fonts
+- **Primary**: [Noto Sans Mono](https://fonts.google.com/noto/specimen/Noto+Sans+Mono) - System-wide monospace font
+  - Setup script: `scripts/setup-noto-fonts.sh` 
+  - Configures fontconfig, GTK 2.0/3.0/4.0 for consistent font across desktop
+  - Used in Emacs, Alacritty, Thunar, and other applications
+
 ## Todo
   - [oh my bash](https://github.com/ohmybash/oh-my-bash)
-    - `export PROMPT_DIRTRIM=0`
-  - fonts (look at oh my posh,so clean) 
+    - `export PROMPT_DIRTRIM=0` 
 
 ### dotfiles
   - Emacs & Theme
