@@ -35,3 +35,4 @@ nodejs
 npm
 uv
 rofi-emoji
+noto-fonts-emoji
