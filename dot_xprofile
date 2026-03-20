@@ -1,0 +1,14 @@
+#!/bin/sh
+
+export XCURSOR_THEME="BreezeX-Dark"
+export XCURSOR_SIZE="48"
+export XCURSOR_PATH="$HOME/.icons:$HOME/.local/share/icons:/usr/share/icons"
+
+# Set themed root cursor by name so Xcursor size applies.
+xsetroot -cursor_name left_ptr
+
+# Keep X resources aligned for apps that read from xrdb.
+[ -f "$HOME/.Xresources" ] && xrdb -merge "$HOME/.Xresources"
+
+# Broadcast cursor settings over XSETTINGS so toolkit apps use one size/theme.
+pgrep -x xsettingsd >/dev/null || xsettingsd &
